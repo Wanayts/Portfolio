@@ -123,8 +123,8 @@
           </div>
           <div class="mb-3">
             <label for="phone" class="form-label">Phone Number</label>
-            <input type="number" class="form-control" id="phone" name="phone" placeholder="Your phone number" required
-       min="0" max="99999999999">
+            <input type="text" class="form-control" id="phone" name="phone" placeholder="Your phone number" required maxlength="11" pattern="\d{11}" title="Phone number must be exactly 11 digits">
+
 
           </div>
           <div class="mb-3">
@@ -230,4 +230,5 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 </script>
+
 
