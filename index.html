@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>John Wanayts Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/images/logo-head.png" />
+    <!-- Bootstrap icons-->
+     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Responsive navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0,0,0,0.4); position: absolute; width: 100%; z-index: 3;">
+      <div class="container px-5">
+          <a class="navbar-brand" href="#!">
+              <img src="assets/images/logo.png" class="img-responsive nav-logo" alt="logo" title="my logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item"><a class="nav-link text-white" href="#about">About Me</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#achievement">Achievement</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#portfolio">Platforms</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#education">Experience</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#my-blog">Blogs</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="contacts.html">Contacts</a></li>
+              </ul>
+              <a href="assets/cv/ojt_cv.pdf" target="_blank"><button class="btn btn-warning">Download CV</button></a>
+          </div>
+      </div>
+  </nav>
+  <header style="height: 100vh; position: relative; overflow: hidden;">
+  <!-- Video background -->
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="assets/video/code2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Optional dark overlay -->
+  <div class="overlay"></div>
+
+  <div class="container px-5 h-100 position-relative" style="z-index:2; ">
+    <div class="row h-100">
+      <!-- LEFT COLUMN: Social Icons + FOLLOW ME -->
+      <div class="col-md-3 d-flex flex-column justify-content-center align-items-start position-relative social-icons d-none d-md-flex">
+        <div class="d-flex flex-column gap-3 p-2">
+          <a href="https://www.instagram.com/wanayts/" target="_blank"><i class="fab fa-instagram text-white fs-4"></i></a>
+          <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-f text-white fs-4"></i></a>
+          <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-messenger text-white fs-4"></i></a>
+          <a href="https://github.com/Wanayts" target="_blank"><i class="fab fa-github text-white fs-4"></i></a>
+        </div>
+        <div class="follow-text">FOLLOW ME</div>
+      </div>
+
+      <!-- CENTER COLUMN -->
+      <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center floating-div p-4">
+        <img src="assets/images/logo-1.png" class="img-fluid mb-4 header-logo" alt="Logo"  id="logo-hover">
+        <audio id="hover-music" loop>
+          <source src="assets/audio/songsong.mp3" type="audio/mpeg">
+        </audio>
+        
+        <h1 class="text-white mb-2" >John Wanayts</h1>
+        <h3  class="text-white-25"><span style="color: #f0d54a;">BSIT</span><span style="color: #f0d54a;">- Intern</h3></span>
+      </div>
+
+      <!-- RIGHT COLUMN: Quote -->
+      <div class="col-md-3 d-flex flex-column justify-content-end align-items-start" style="padding-bottom: 200px;">
+        <p class="text-white mb-2" style="font-size: 14px; line-height: 1.5; background-color: rgba(0,0,0,0.4)">
+          Learning is a journey, and each project is a new window into creativity. <em>- Wanayts</em>
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+  <!-- Features section: 4 items with 2-line text, dim yellow background -->
+  <section class="py-5 border-bottom" id="features" style="background-color: #fff9e6;">
+    <div class="container px-5 my-5">
+      <div class="row gx-5">
+        <!-- Feature 1 -->
+        <div class="col-lg-3 mb-5 mb-lg-0">
+          <div class="feature text-dark rounded-3 mb-3" style="background-color: #f0d54a;">
+            <i class="bi bi-lightbulb"></i>
+          </div>
+          <h2 class="h4 fw-bolder">Eager to Learn</h2>
+          <p class="two-line">
+            An intern ready to absorb knowledge, learn new skills.
+          </p>
+          <a class="text-decoration-none text-warning" href="#!">
+            Learn more
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-lg-3 mb-5 mb-lg-0">
+          <div class="feature text-dark rounded-3 mb-3" style="background-color: rgba(224,188,0,0.7);">
+            <i class="bi bi-gear"></i>
+          </div>
+          <h2 class="h4 fw-bolder">Creative Thinker</h2>
+          <p class="two-line">
+            Brings fresh ideas and innovative solutions to the table.
+          </p>
+          <a class="text-decoration-none text-warning" href="#!">
+            Learn more
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-lg-3 mb-5 mb-lg-0">
+          <div class="feature text-dark rounded-3 mb-3" style="background-color: rgba(224,188,0,0.7);">
+            <i class="bi bi-people"></i>
+          </div>
+          <h2 class="h4 fw-bolder">Team Player</h2>
+          <p class="two-line">
+            Collaborates well with others, communicates effectively.
+          </p>
+          <a class="text-decoration-none text-warning" href="#!">
+            Learn more
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="col-lg-3">
+          <div class="feature text-dark rounded-3 mb-3" style="background-color: rgba(224,188,0,0.7);">
+            <i class="bi bi-lightning-charge"></i>
+          </div>
+          <h2 class="h4 fw-bolder">Adaptable</h2>
+          <p class="two-line">
+            Quickly adapts to new tasks and environments.
+          </p>
+          <a class="text-decoration-none text-warning" href="#!">
+            Learn more
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Me / Biography -->
+  <section id="about" class="py-5 border-bottom" style="background: linear-gradient(to bottom, #fffaf0, #f5f5f5);">
+  <div class="container px-5 my-5">
+      <div class="text-center mb-5">
+          <h2 class="fw-bolder">Biography</h2>
+      </div>
+      <div class="row gx-5">
+          <!-- Left column -->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <!-- Personal Info -->
+            <div class="mb-4 p-3 rounded shadow-sm" style="background-color: #fff;">
+              <h6 class="text-uppercase text-muted mb-3"><i class="bi bi-pencil-fill me-2"></i>Personal Info</h6>
+                <div class="mb-2 d-flex align-items-center"><i class="bi bi-person-fill me-2 text-warning"></i>John Wanayts</div>
+
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-briefcase-fill me-2 text-warning"></i>BSIT Intern / Techtaxi
+                </div>
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-calendar-fill me-2 text-warning"></i>09-30-2002
+                </div>
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-envelope-fill me-2 text-warning"></i>johnwanayts@gmail.com
+                </div>
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-telephone-fill me-2 text-warning"></i>09205153147
+                </div>
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-geo-alt-fill me-2 text-warning"></i>Pasig, Philippines
+                </div>
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-chat-left-text me-2 text-warning"></i></i>English, Filipino
+                </div>
+                <div class="mb-2 d-flex align-items-center">
+                    <i class="bi bi-clock-fill me-2 text-warning"></i>10:00 AM - 6:00 PM
+                </div>
+            </div>
+            <!-- Main Skills -->
+            <div class="mb-4 p-3 rounded shadow-sm" style="background-color: #fff;">
+              <h6 class="text-uppercase text-muted mb-3"><i class="bi bi-star-fill me-2"></i>Main Skills</h6>
+              <span class="badge bg-primary text-dark me-2 mb-2">HTML</span>
+              <span class="badge bg-primary text-dark me-2 mb-2">CSS</span>
+              <span class="badge bg-primary text-dark me-2 mb-2">JavaScript</span>
+              <span class="badge bg-warning text-dark me-2 mb-2">Bootstrap</span>
+            </div>
+            <!-- Other Certificates -->
+            <div class="mb-4 p-3 rounded shadow-sm" style="background-color: #fff;">
+                <h6 class="text-uppercase text-muted mb-3"><i class="bi bi-star-fill me-2"></i>Other Certificates</h6>
+                <span class="badge bg-primary text-dark me-2 mb-2">Computer Basics</span>
+                <span class="badge bg-warning text-dark me-2 mb-2">IT Support</span>
+                <span class="badge bg-danger text-dark me-2 mb-2">Networking</span>
+                <span class="badge bg-danger text-dark me-2 mb-2">Exploring IOT</span>
+                <span class="badge bg-danger text-dark me-2 mb-2">Cybersecurity</span>
+            </div>
+            <!-- Download CV -->
+              <a href="assets/cv/ojt_cv.pdf" target="_blank" class="btn btn-warning w-100">
+                <i class="bi bi-download me-2"></i>Download CV
+              </a>
+          </div>
+          <!-- Right column -->
+          <div class="col-lg-8">
+            <h5 class="fw-bold mb-3">Introduction</h5>
+              <p><strong>Hello!</strong> I'm John Wanayts, an enthusiastic intern eager to enhance my skills and contribute to real projects.</p>
+              <p><em>"I thrive in collaborative environments and love turning challenges into learning opportunities."</em></p>
+              <p>I am passionate about learning, exploring innovative solutions, and growing professionally. My goal is to make a meaningful impact while developing both personally and professionally in the tech industry.</p>
+              <div class="d-flex justify-content-center mt-4" style="gap: 30px;">
+                  <img src="assets/images/Ray.jpg" alt="Profile 1" class="img-fluid profile-img" style="width:40%; height:auto; object-fit: cover;">
+                  <img src="assets/images/photo2.jpg" alt="Profile 2" class="img-fluid profile-img" style="width:40%;">
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Achievements -->
+<section id="achievement" class="py-5 border-bottom" style="background: linear-gradient(to bottom, #fff8e1, #f9f9f9);">
+    <div class="container px-5 my-5">
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bolder">ACHIEVEMENTS</h2>
+        </div>
+        <div class="row gx-5">
+            <!-- Left Column: Skills -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h5 class="fw-bold mb-4">Skills</h5>
+                <div class="row g-3">
+                    <!-- Skill Example -->
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <div class="d-flex align-items-center mb-1">
+                                <i class="fa-brands fa-html5 me-2 text-danger"></i>
+                                <span class="fw-semibold">HTML</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="progress flex-grow-1 me-2" style="height: 10px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" 
+                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span class="fw-bold">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <div class="d-flex align-items-center mb-1">
+                                <i class="fa-brands fa-css3-alt me-2 text-primary"></i>
+                                <span class="fw-semibold">CSS</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="progress flex-grow-1 me-2" style="height: 10px;">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" 
+                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span class="fw-bold">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <div class="d-flex align-items-center mb-1">
+                                <i class="fa-brands fa-js me-2 text-warning"></i>
+                                <span class="fw-semibold">JavaScript</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="progress flex-grow-1 me-2" style="height: 10px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" 
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span class="fw-bold">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <div class="d-flex align-items-center mb-1">
+                                <i class="fa-brands fa-bootstrap me-2 text-primary"></i>
+                                <span class="fw-semibold">Bootstrap</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="progress flex-grow-1 me-2" style="height: 10px;">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" 
+                                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span class="fw-bold">40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <div class="d-flex align-items-center mb-1">
+                                <i class="fa-solid fa-database me-2 text-success"></i>
+                                <span class="fw-semibold">SQL</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="progress flex-grow-1 me-2" style="height: 10px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="fw-bold">40%</span>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <!-- Download CV -->
+                <div class="mt-4">
+                    <a href="assets/cv/ojt_cv.pdf" target="_blank" class="btn btn-warning">Download CV</a>
+                </div>
+            </div>
+            <!-- Right Column: Introduction + Education & Awards -->
+            <div class="col-lg-8">
+                <h5 class="fw-bold mb-3">Introduction</h5>
+                <p>
+                    <strong>Hello!</strong> I'm John Wanayts, an enthusiastic intern eager to enhance my skills and contribute to real projects. 
+                    I am passionate about learning, exploring innovative solutions, and growing in a professional environment.
+                </p>
+                <p>
+                    I thrive in collaborative settings, enjoy tackling new challenges, and am committed to continuously improving my knowledge and expertise. 
+                    My goal is to make a meaningful impact while developing personally and professionally in the tech industry.
+                </p>
+
+                <div class="row mt-4">
+                    <!-- Education -->
+                    <div class="col-md-6 mb-3">
+                        <h6 class="fw-bold">Education</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-graduation-cap me-2"></i>Academic Excellence</li>
+                        </ul>
+                    </div>
+
+                    <!-- Awards -->
+                    <div class="col-md-6 mb-3">
+                        <h6 class="fw-bold">Awards</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-trophy me-2 text-warning"></i>Certificate of Academic Honors - 2023 - 2024</li>
+                            <li><i class="fa-solid fa-trophy me-2 text-warning"></i>Certificate of Academic Honors - 2024 - 2025</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- LEARNING PLATFORMS + SKILLS SLIDER -->
+<section id="portfolio" class="py-7" style="background: linear-gradient(to bottom, #fff8dc, #f9f9f9);">
+  <div class="container px-5">
+    <div class="text-center mb-5">
+      <h2 class="fw-bolder">Learning Platforms & Tools</h2>
+      <p class="text-muted">Courses, platforms, and tools I used to enhance my skills</p>
+    </div>
+
+    <div class="row gx-4 gy-4 justify-content-center">
+
+      <!-- LEFT COLUMN -->
+      <div class="col-md-6 d-flex flex-column gap-3">
+        <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+          <div class="project-img me-3" style="width:70px; height:70px; overflow:hidden; flex-shrink:0;">
+            <img src="assets/images/cisco.png" alt="Cisco Networking Academy" class="img-fluid w-100 h-100" style="object-fit: cover;">
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Cisco Networking Academy</h6>
+            <small class="text-muted">Free online courses. In-person learning.</small>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+          <div class="project-img me-3" style="width:70px; height:70px; overflow:hidden; flex-shrink:0;">
+            <img src="assets/images/freecode.png" alt="freeCodeCamp" class="img-fluid w-100 h-100" style="object-fit: cover;">
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">freeCodeCamp</h6>
+            <small class="text-muted">freeCodeCamp is a friendly community where you can learn to code for free.</small>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+          <div class="project-img me-3" style="width:70px; height:70px; overflow:hidden; flex-shrink:0;">
+            <img src="assets/images/w3school.png" alt="W3school" class="img-fluid w-100 h-100" style="object-fit: cover;">
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">W3school</h6>
+            <small class="text-muted">Well organized and easy to understand Web building tutorials.</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-md-6 d-flex flex-column gap-3">
+        <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+          <div class="project-img me-3" style="width:70px; height:70px; overflow:hidden; flex-shrink:0;">
+            <img src="assets/images/visual.png" alt="Visual Studio Code" class="img-fluid w-100 h-100" style="object-fit: cover;">
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Visual Studio Code</h6>
+            <small class="text-muted">Redefines AI-powered coding with GitHub Copilot for building and debugging.</small>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+          <div class="project-img me-3" style="width:70px; height:70px; overflow:hidden; flex-shrink:0;">
+            <img src="assets/images/sublime.png" alt="Sublime Text" class="img-fluid w-100 h-100" style="object-fit: cover;">
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Sublime Text</h6>
+            <small class="text-muted">A sophisticated text editor for code, markup, and prose.</small>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm">
+          <div class="project-img me-3" style="width:70px; height:70px; overflow:hidden; flex-shrink:0;">
+            <img src="assets/images/notepad.png" alt="Notepad++" class="img-fluid w-100 h-100" style="object-fit: cover;">
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Notepad++</h6>
+            <small class="text-muted">Free source code editor supporting multiple programming languages.</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- SKILLS ICONS SLIDER -->
+<div class="swiper mySwiper mt-5 mb-7 border-bottom"  style="padding-left: 50px; padding-right: 50px; padding-bottom: 20px;">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide text-center">
+      <div class="rounded-circle bg-danger d-flex align-items-center justify-content-center mb-2" style="width:80px; height:80px;">
+        <i class="fab fa-html5 fa-2x text-white"></i>
+      </div>
+      <small class="fw-bold">HTML</small>
+    </div>
+
+    <div class="swiper-slide text-center">
+      <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center mb-2" style="width:80px; height:80px;">
+        <i class="fab fa-css3-alt fa-2x text-white"></i>
+      </div>
+      <small class="fw-bold">CSS</small>
+    </div>
+
+    <div class="swiper-slide text-center">
+      <div class="rounded-circle bg-warning d-flex align-items-center justify-content-center mb-2" style="width:80px; height:80px;">
+        <i class="fab fa-js fa-2x text-white"></i>
+      </div>
+      <small class="fw-bold">JavaScript</small>
+    </div>
+
+    <div class="swiper-slide text-center">
+      <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center mb-2" style="width:80px; height:80px;">
+        <i class="fab fa-php fa-2x text-white"></i>
+      </div>
+      <small class="fw-bold">PHP</small>
+    </div>
+
+    <div class="swiper-slide text-center">
+      <div class="rounded-circle bg-success d-flex align-items-center justify-content-center mb-2" style="width:80px; height:80px;">
+        <i class="fas fa-database fa-2x text-white"></i>
+      </div>
+      <small class="fw-bold">Database</small>
+    </div>
+
+    <div class="swiper-slide text-center">
+      <div class="rounded-circle bg-info d-flex align-items-center justify-content-center mb-2" style="width:80px; height:80px;">
+        <i class="fas fa-network-wired fa-2x text-white"></i>
+      </div>
+      <small class="fw-bold">Networking</small>
+    </div>
+
+    <div class="swiper-slide text-center">
+      <div class="rounded-circle bg-dark d-flex align-items-center justify-content-center mb-2" style="width:80px; height:80px;">
+        <i class="fas fa-shield-alt fa-2x text-white"></i>
+      </div>
+      <small class="fw-bold">Cybersecurity</small>
+    </div>
+  </div>
+</div>
+
+<!-- School Attainment - Horizontal Timeline with Images -->
+<section id="education" class="py-7 border-bottom" style="background-color: #f5f5f5;">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">School Attainment</h2>
+
+    <div class="timeline-container d-flex justify-content-between position-relative">
+
+  <!-- Connecting Bar Background -->
+  <div class="position-absolute start-0 end-0 timeline-bar" 
+       style="height: 6px; background-color: #e0e0e0; z-index: 0; top: 100px; border-radius: 3px;"></div>
+       <!-- ↑ moved 10px down from 90px -->
+
+  <!-- Connecting Bar Fill (Optional Animation) -->
+  <div id="progress-bar-fill" class="position-absolute start-0 timeline-bar" 
+       style="height: 6px; background-color: #ffc107; z-index: 1; top: 100px; width: 0%; border-radius: 3px; transition: width 2s ease;"></div>
+       <!-- ↑ same top as background bar -->
+
+  <!-- Timeline Items -->
+  <div class="text-center position-relative z-1">
+    <img src="assets/images/decastro.jpg" alt="De Castro Elementary" class="rounded-circle mx-auto mb-2" style="width: 60px; height: 60px; object-fit: cover;">
+    <h6 class="fw-bold">De Castro Elementary</h6>
+    <small class="text-muted d-block mb-3" style="margin-top: 2rem;">2013 – 2014</small>
+    <p style="font-size: 0.9rem;">Completed foundational education and participated in school activities.</p>
+  </div>
+
+  <div class="text-center position-relative z-1">
+    <img src="assets/images/monalisa.png" alt="Monalisa Academy" class="rounded-circle mx-auto mb-2" style="width: 60px; height: 60px; object-fit: cover;">
+    <h6 class="fw-bold">Monalisa Academy</h6>
+    <small class="text-muted d-block mb-3" style="margin-top: 2rem;">2017 – 2018</small>
+
+    <p style="font-size: 0.9rem;">Completed high school with active participation in extracurricular activities.</p>
+  </div>
+
+  <div class="text-center position-relative z-1">
+    <img src="assets/images/arellano.jpg" alt="Arellano University Pasig" class="rounded-circle mx-auto mb-2" style="width: 60px; height: 60px; object-fit: cover;">
+    <h6 class="fw-bold">Arellano University Pasig</h6>
+    <small class="text-muted d-block mb-3" style="margin-top: 2rem;">2018 – 2022</small>
+    <p style="font-size: 0.9rem;">Completed Senior High School specializing in IT and Technology track.</p>
+  </div>
+
+  <div class="text-center position-relative z-1">
+    <img src="assets/images/arellano.jpg" alt="Arellano University" class="rounded-circle mx-auto mb-2" style="width: 60px; height: 60px; object-fit: cover;">
+    <h6 class="fw-bold">Arellano University Plaridel</h6>
+    <small class="text-muted d-block mb-3" style="margin-top: 2rem;">2022 – Present</small>
+    <p style="font-size: 0.9rem;">Currently pursuing a Bachelor’s degree in IT.</p>
+  </div>
+</div>
+
+
+</section>
+</section>
+
+<!-- Learning Journey - Step-by-Step with AI -->
+<section id="learning-journey" class="py-7 border-bottom" style="background-color: #fff9e6;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bolder">My Learning Journey</h2>
+      <p class="text-muted">From beginner to building projects independently</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Step 1: Learn the Basics -->
+      <div class="col-lg-4">
+        <div class="p-5 bg-white rounded shadow-sm h-100 text-center position-relative overflow-hidden">
+          <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+               style="width:70px; height:70px;">
+            <i class="bi bi-lightbulb text-white fs-3"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Learn the Basics</h5>
+          <p class="text-muted mb-4">
+            Understand HTML5, CSS3, Javascript and basic web development fundamentals. <br><br><br>
+          </p>
+          <div class="progress" style="height:8px; border-radius:4px;">
+            <div class="progress-bar bg-primary" role="progressbar" style="width:100%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Hands-on Practice -->
+      <div class="col-lg-4">
+        <div class="p-5 bg-white rounded shadow-sm h-100 text-center position-relative overflow-hidden">
+          <div class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+               style="width:70px; height:70px;">
+            <i class="bi bi-terminal text-white fs-3"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Hands-on Practice</h5>
+          <p class="text-muted mb-4">
+            Apply your knowledge through mini-projects, coding exercises, and experimentation.<br><br><br>
+          </p>
+          <div class="progress" style="height:8px; border-radius:4px;">
+            <div class="progress-bar bg-warning" role="progressbar" style="width:75%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3: Vibe Coding (AI) -->
+      <div class="col-lg-4">
+        <div class="p-5 bg-white rounded shadow-sm h-100 text-center position-relative overflow-hidden">
+          <div class="bg-success rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
+               style="width:70px; height:70px;">
+            <i class="bi bi-cpu text-white fs-3"></i>
+          </div>
+          <h5 class="fw-bold mb-2">Vibe Coding (AI)</h5>
+          <p class="text-muted mb-4">
+            Build your own projects using AI-assisted coding, experimenting with creative solutions and enhanced.<br><br><br>
+          </p>
+          <div class="progress" style="height:8px; border-radius:4px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width:60%;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements" class="py-7 border-bottom" style="background-color: #fdf7c3;">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bolder">OJT Statistics</h2>
+      <p class="text-muted">Key milestones and honest feedback from peers and mentors</p>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="row g-4 justify-content-center mb-5">
+      <div class="col-6 col-md-3">
+        <div class="p-4 bg-warning text-white rounded shadow-sm text-center h-100">
+          <h3 class="fw-bold mb-2 counter" data-target="89">0</h3>
+          <p class="mb-0">Working Hours</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-4 bg-success text-white rounded shadow-sm text-center h-100">
+          <h3 class="fw-bold mb-2 counter" id="ojtDays" data-target="0">0</h3>
+          <p class="mb-0">OJT Days</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-4 bg-info text-white rounded shadow-sm text-center h-100">
+          <h3 class="fw-bold mb-2 counter" data-target="50" data-percent="true">0</h3>
+          <p class="mb-0">Confidence Level</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Quotes Slider -->
+    <div class="swiper myTestimonials">
+      <div class="swiper-wrapper">
+
+        <!-- Quotes 1 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"Bad programmers worry about the code. Good programmers worry about data structures and their relationships."</p>
+            <h6 class="fw-bold">Linus Torvalds</h6>
+            <small class="text-muted">Creator of Linux</small>
+          </div>
+        </div>
+
+        <!-- Quotes 2 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"Measuring programming progress by lines of code is like measuring aircraft building progress by weight."</p>
+            <h6 class="fw-bold">Bill Gates</h6>
+            <small class="text-muted">Co-Founder of Microsoft</small>
+          </div>
+        </div>
+
+        <!-- Quotes 3 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"Everything should be made as simple as possible. But to do that you have to master complexity."</p>
+            <h6 class="fw-bold">Steve Wozniak</h6>
+            <small class="text-muted">Co-Founder of Apple</small>
+          </div>
+        </div>
+
+        <!-- Quotes 4 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"Deciding between a special-purpose language and a general-purpose one is a tough choice for language designers."</p>
+            <h6 class="fw-bold">Guido van Rossum</h6>
+            <small class="text-muted">Python Creator</small>
+          </div>
+        </div>
+
+        <!-- Quotes 5 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"Anytime someone builds a little application that runs on a cell phone, there's something that goes on the server."</p>
+            <h6 class="fw-bold">James Gosling</h6>
+            <small class="text-muted">Java Creator</small>
+          </div>
+        </div>
+
+        <!-- Quotes 6 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"If the web can be evolved to include the missing APIs and have better performance, won't need to go beyond the web."</p>
+            <h6 class="fw-bold">Brendan Eich</h6>
+            <small class="text-muted">Javascript Creator</small>
+          </div>
+        </div>
+
+        <!-- Quotes 7 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"Move fast and break things. Unless you are breaking stuff, you are not moving fast enough."</p>
+            <h6 class="fw-bold">Mark Zuckerberg</h6>
+            <small class="text-muted">Java Creator</small>
+          </div>
+        </div>
+
+        <!-- Quotes 8 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"C++ and Java, say, are presumably growing faster than plain C, but I bet C will still be around."</p>
+            <h6 class="fw-bold">Dennis Ritchie</h6>
+            <small class="text-muted">C Creator</small>
+          </div>
+        </div>
+
+        <!-- Quotes 9 -->
+        <div class="swiper-slide">
+          <div class="p-4 bg-white rounded shadow-sm text-center h-100">
+            <p class="mb-3 fst-italic">"There are only two kinds of languages: the ones people complain about and the ones nobody uses"</p>
+            <h6 class="fw-bold">Bjarne Stroustrup</h6>
+            <small class="text-muted">C++ Creator</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination mt-3"></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- My Blog Section -->
+<section id="my-blog" class="py-7" style="background-color: #f9f7b8;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Blogs</h2>
+      <p class="text-muted">Latest updates and projects from my IT journey</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Task 1: Reviewed HTML Fundamentals -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-brands fa-html5 fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Nov 27, 2025 | Fundamentals</small>
+            <h5 class="card-title fw-bold mt-2">Reviewed HTML Fundamentals</h5>
+            <p class="card-text" style="line-height:1.6;">Focused on understanding HTML structure, tags, and semantic elements for building web pages.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 2: Reviewed CSS Fundamentals -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-brands fa-css3-alt fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Nov 28, 2025 | Fundamentals</small>
+            <h5 class="card-title fw-bold mt-2">Reviewed CSS Fundamentals</h5>
+            <p class="card-text" style="line-height:1.6;">Learned about styling, layout techniques, colors, typography, and basic responsive design.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 3: Studied JavaScript Fundamentals -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-brands fa-js fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 1, 2025 | Fundamentals</small>
+            <h5 class="card-title fw-bold mt-2">Studied JavaScript Fundamentals</h5>
+            <p class="card-text" style="line-height:1.6;">Learned basic JS concepts like variables, functions, loops, and DOM manipulation.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 4: Studied JavaScript References -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-book fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 2, 2025 | JS References</small>
+            <h5 class="card-title fw-bold mt-2">Studied JavaScript References</h5>
+            <p class="card-text" style="line-height:1.6;">Explored JS libraries, online references, and best practices for writing efficient code.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 5: Studied Bootstrap 5 Fundamentals -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-brands fa-bootstrap fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 3, 2025 | Bootstrap 5</small>
+            <h5 class="card-title fw-bold mt-2">Studied Bootstrap 5 Fundamentals</h5>
+            <p class="card-text" style="line-height:1.6;">Learned grid system, components, utilities, and responsive design features in Bootstrap 5.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 6: MCDO Design (Front End) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-hamburger fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 5, 2025 | Front End</small>
+            <h5 class="card-title fw-bold mt-2">Mcdo Design (Front End)</h5>
+            <p class="card-text" style="line-height:1.6;">Created the front-end layout for a Mcdo-themed website design project.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 7: Continuation for MCDO Front End -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-pen-nib fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 9, 2025 | Front End</small>
+            <h5 class="card-title fw-bold mt-2">Continuation for Mcdo Front End</h5>
+            <p class="card-text" style="line-height:1.6;">Refined and completed the front-end pages, adding styling and interactivity for the MCDO project.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 8: Continuation Bootstrap Advanced -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-layer-group fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 9, 2025 | Bootstrap Advanced</small>
+            <h5 class="card-title fw-bold mt-2">Continuation Bootstrap Advanced</h5>
+            <p class="card-text" style="line-height:1.6;">Explored advanced Bootstrap components, grids, and responsive techniques to enhance projects.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 9: Jollibee Website Creation -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-utensils fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 9, 2025 | Project</small>
+            <h5 class="card-title fw-bold mt-2">Jollibee Website Creation</h5>
+            <p class="card-text" style="line-height:1.6;">Designed and developed a Jollibee-themed website focusing on layout, styling, and responsiveness.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 10: Creating Portfolio Website -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-briefcase fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 11, 2025 | Portfolio</small>
+            <h5 class="card-title fw-bold mt-2">Creating Portfolio Website</h5>
+            <p class="card-text" style="line-height:1.6;">Started developing my personal portfolio website to showcase my skills, projects, and learning journey.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 11: Continuation Portfolio Website -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-code fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 12, 2025 | Portfolio</small>
+            <h5 class="card-title fw-bold mt-2">Continuation Portfolio Website</h5>
+            <p class="card-text" style="line-height:1.6;">Added more sections, improved layout, and polished the design for a better user experience.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task 12: Upgrading my Portfolio -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-3">
+              <i class="fa-solid fa-rocket fa-3x text-warning"></i>
+            </div>
+            <small class="text-muted">Dec 16, 2025 | Portfolio</small>
+            <h5 class="card-title fw-bold mt-2">Upgrading my Portfolio</h5>
+            <p class="card-text" style="line-height:1.6;">Enhanced portfolio content, layout, and responsiveness to fully reflect my skills and projects.</p>
+            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer-->
+<footer class="py-5" style="background-color: #1c1c1c; color: #fff;">
+  <div class="container">
+    <div class="row align-items-start">
+
+      <!-- Column 1: About / Contact -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h5 class="fw-bold">Hire Me for Your Next Big Project!</h5>
+        <p>Contact me in any convenient way. I am always open to learning opportunities and collaboration.</p>
+        <div class="d-flex gap-3">
+          <a href="https://www.instagram.com/wanayts/" target="_blank"><i class="fab fa-instagram text-white" style="font-size: 24px;"></i></a>
+          <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-f text-white" style="font-size: 24px;"></i></a>
+          <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-messenger text-white" style="font-size: 24px;"></i></a>
+          <a href="https://github.com/Wanayts" target="_blank"><i class="fab fa-github text-white" style="font-size: 24px;"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Navigation -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h5 class="fw-bold">Navigation</h5>
+        <ul class="list-unstyled">
+          <li><a href="#about" class="text-white text-decoration-none">About Me</a></li>
+          <li><a href="#achievement" class="text-white text-decoration-none">Achievement</a></li>
+          <li><a href="#portfolio" class="text-white text-decoration-none">Portfolio</a></li>
+          <li><a href="#education" class="text-white text-decoration-none">Education</a></li>
+          <li><a href="#contacts" class="text-white text-decoration-none">Contacts</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Information -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h5 class="fw-bold">Information</h5>
+        <p class="mb-1"><strong>Name:</strong> John Wanayts</p>
+        <p class="mb-1"><strong>Date of Birth:</strong> 09.30.2002</p>
+        <p class="mb-1"><strong>Email:</strong> johnwanayts@gmail.com</p>
+        <p class="mb-1"><strong>Phone:</strong> 09205153147</p>
+        <p class="mb-3"><strong>City:</strong> Pasig</p>
+        <button class="btn btn-warning btn-sm" onclick="window.open('assets/cv/ojt_cv.pdf', '_blank')">Download CV</button>
+      </div>
+    </div>
+    <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+<div class="d-flex justify-content-between mt-4">
+  <p class="m-0">&copy; Created By John Wanayts</p>
+  <p class="m-0">All Right Reserved 2025</p>
+</div>
+  </div>
+</footer>
+<button id="scrollTopBtn" style="position: fixed; bottom: 30px; right: 30px; display: none; background: transparent; border: none; cursor: pointer; z-index: 999; font-size: 2.5rem; color: #F0D54A; transition: transform 0.3s;">
+  <i class="fa-solid fa-code"></i>
+</button>
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
