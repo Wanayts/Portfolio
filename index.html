@@ -740,257 +740,160 @@
       <p class="text-muted">Latest updates and projects from my IT journey</p>
     </div>
 
-    <div class="row g-4 justify-content-center">
+    <!-- Filter Buttons -->
+    <div class="d-flex justify-content-center mb-4 flex-wrap">
+      <button class="btn btn-outline-warning me-2 mb-2 filter-btn" data-filter="all">All</button>
+      <button class="btn btn-outline-warning me-2 mb-2 filter-btn" data-filter="fundamentals">Fundamentals</button>
+      <button class="btn btn-outline-warning me-2 mb-2 filter-btn" data-filter="portfolio">Portfolio</button>
+      <button class="btn btn-outline-warning me-2 mb-2 filter-btn" data-filter="front-end">Front End</button>
+      <button class="btn btn-outline-warning me-2 mb-2 filter-btn" data-filter="bootstrap">Bootstrap</button>
+      <button class="btn btn-outline-warning me-2 mb-2 filter-btn" data-filter="project">Project</button>
+    </div>
 
-      <!-- Task 1: Reviewed HTML Fundamentals -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-brands fa-html5 fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Nov 27, 2025 | Fundamentals</small>
-            <h5 class="card-title fw-bold mt-2">Reviewed HTML Fundamentals</h5>
-            <p class="card-text" style="line-height:1.6;">Focused on understanding HTML structure, tags, and semantic elements for building web pages.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
+    <!-- Blog Accordion -->
+    <div class="accordion" id="blogAccordion">
 
-      <!-- Task 2: Reviewed CSS Fundamentals -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-brands fa-css3-alt fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Nov 28, 2025 | Fundamentals</small>
-            <h5 class="card-title fw-bold mt-2">Reviewed CSS Fundamentals</h5>
-            <p class="card-text" style="line-height:1.6;">Learned about styling, layout techniques, colors, typography, and basic responsive design.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
+      <!-- December 2025 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDec2025">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dec2025" aria-expanded="true">
+            December 2025
+          </button>
+        </h2>
+        <div id="dec2025" class="accordion-collapse collapse show" data-bs-parent="#blogAccordion">
+          <div class="accordion-body">
+            <div class="row g-4 justify-content-center">
 
-      <!-- Task 3: Studied JavaScript Fundamentals -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-brands fa-js fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 1, 2025 | Fundamentals</small>
-            <h5 class="card-title fw-bold mt-2">Studied JavaScript Fundamentals</h5>
-            <p class="card-text" style="line-height:1.6;">Learned basic JS concepts like variables, functions, loops, and DOM manipulation.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 4: Studied JavaScript References -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-book fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 2, 2025 | JS References</small>
-            <h5 class="card-title fw-bold mt-2">Studied JavaScript References</h5>
-            <p class="card-text" style="line-height:1.6;">Explored JS libraries, online references, and best practices for writing efficient code.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 5: Studied Bootstrap 5 Fundamentals -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-brands fa-bootstrap fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 3, 2025 | Bootstrap 5</small>
-            <h5 class="card-title fw-bold mt-2">Studied Bootstrap 5 Fundamentals</h5>
-            <p class="card-text" style="line-height:1.6;">Learned grid system, components, utilities, and responsive design features in Bootstrap 5.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 6: MCDO Design (Front End) -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-hamburger fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 5, 2025 | Front End</small>
-            <h5 class="card-title fw-bold mt-2">Mcdo Design (Front End)</h5>
-            <p class="card-text" style="line-height:1.6;">Created the front-end layout for a Mcdo-themed website design project.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 7: Continuation for MCDO Front End -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-pen-nib fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 9, 2025 | Front End</small>
-            <h5 class="card-title fw-bold mt-2">Continuation for Mcdo Front End</h5>
-            <p class="card-text" style="line-height:1.6;">Refined and completed the front-end pages, adding styling and interactivity for the MCDO project.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 8: Continuation Bootstrap Advanced -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-layer-group fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 9, 2025 | Bootstrap Advanced</small>
-            <h5 class="card-title fw-bold mt-2">Continuation Bootstrap Advanced</h5>
-            <p class="card-text" style="line-height:1.6;">Explored advanced Bootstrap components, grids, and responsive techniques to enhance projects.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 9: Jollibee Website Creation -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-utensils fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 9, 2025 | Project</small>
-            <h5 class="card-title fw-bold mt-2">Jollibee Website Creation</h5>
-            <p class="card-text" style="line-height:1.6;">Designed and developed a Jollibee-themed website focusing on layout, styling, and responsiveness.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 10: Creating Portfolio Website -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-briefcase fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 11, 2025 | Portfolio</small>
-            <h5 class="card-title fw-bold mt-2">Creating Portfolio Website</h5>
-            <p class="card-text" style="line-height:1.6;">Started developing my personal portfolio website to showcase my skills, projects, and learning journey.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 11: Continuation Portfolio Website -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-code fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 12, 2025 | Portfolio</small>
-            <h5 class="card-title fw-bold mt-2">Continuation Portfolio Website</h5>
-            <p class="card-text" style="line-height:1.6;">Added more sections, improved layout, and polished the design for a better user experience.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Task 12: Upgrading my Portfolio -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <div class="text-center mb-3">
-              <i class="fa-solid fa-rocket fa-3x text-warning"></i>
-            </div>
-            <small class="text-muted">Dec 16, 2025 | Portfolio</small>
-            <h5 class="card-title fw-bold mt-2">Upgrading my Portfolio</h5>
-            <p class="card-text" style="line-height:1.6;">Enhanced portfolio content, layout, and responsiveness to fully reflect my skills and projects.</p>
-            <a href="#" class="btn btn-warning rounded-pill">Read More</a>
-          </div>
-        </div>
-      </div>
-
-          <!-- 17 December Card -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body">
-                <div class="text-center mb-3">
-                  <i class="fa-solid fa-calendar-day fa-3x text-warning"></i>
+              <!-- Card: Studied JavaScript Fundamentals -->
+              <div class="col-md-6 col-lg-4 blog-card" data-category="fundamentals">
+                <div class="card h-100 shadow-sm border-0">
+                  <div class="card-body">
+                    <div class="text-center mb-3">
+                      <i class="fa-brands fa-js fa-3x text-warning"></i>
+                    </div>
+                    <small class="text-muted">Dec 1, 2025 | Fundamentals</small>
+                    <h5 class="card-title fw-bold mt-2">Studied JavaScript Fundamentals</h5>
+                    <p class="card-text" style="line-height:1.6;">Learned basic JS concepts like variables, functions, loops, and DOM manipulation.</p>
+                    <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+                  </div>
                 </div>
-                <small class="text-muted">17 December 2025</small>
-                <h5 class="card-title fw-bold mt-2">Mockup Website</h5>
-                <p class="card-text" style="line-height:1.6;">
-                  Meeting with Sir JM about mockup tasks, starting mockup, creating assets and grids, checking images and content. Multiple adjustments throughout the day.
-                </p>
-                <a href="#" class="btn btn-warning rounded-pill">Read More</a>
               </div>
-            </div>
-          </div>
-        
-          <!-- 18 December Card -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body">
-                <div class="text-center mb-3">
-                  <i class="fa-solid fa-calendar-day fa-3x text-warning"></i>
+
+              <!-- Card: Studied JavaScript References -->
+              <div class="col-md-6 col-lg-4 blog-card" data-category="fundamentals">
+                <div class="card h-100 shadow-sm border-0">
+                  <div class="card-body">
+                    <div class="text-center mb-3">
+                      <i class="fa-solid fa-book fa-3x text-warning"></i>
+                    </div>
+                    <small class="text-muted">Dec 2, 2025 | JS References</small>
+                    <h5 class="card-title fw-bold mt-2">Studied JavaScript References</h5>
+                    <p class="card-text" style="line-height:1.6;">Explored JS libraries, online references, and best practices for writing efficient code.</p>
+                    <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+                  </div>
                 </div>
-                <small class="text-muted">18 December 2025</small>
-                <h5 class="card-title fw-bold mt-2">Refining & Online Course</h5>
-                <p class="card-text" style="line-height:1.6;">
-                  Fixed contents and grids based on Sir JM's feedback, deployed resume website to GitHub, started Udemy course (Bootstrap 4), watched videos and wrote notes on CSS components and grid system.
-                </p>
-                <a href="#" class="btn btn-warning rounded-pill">Read More</a>
               </div>
-            </div>
-          </div>
-        
-          <!-- 19 December Card -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body">
-                <div class="text-center mb-3">
-                  <i class="fa-solid fa-calendar-day fa-3x text-warning"></i>
+
+              <!-- Card: Studied Bootstrap 5 Fundamentals -->
+              <div class="col-md-6 col-lg-4 blog-card" data-category="bootstrap">
+                <div class="card h-100 shadow-sm border-0">
+                  <div class="card-body">
+                    <div class="text-center mb-3">
+                      <i class="fa-brands fa-bootstrap fa-3x text-warning"></i>
+                    </div>
+                    <small class="text-muted">Dec 3, 2025 | Bootstrap 5</small>
+                    <h5 class="card-title fw-bold mt-2">Studied Bootstrap 5 Fundamentals</h5>
+                    <p class="card-text" style="line-height:1.6;">Learned grid system, components, utilities, and responsive design features in Bootstrap 5.</p>
+                    <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+                  </div>
                 </div>
-                <small class="text-muted">19 December 2025</small>
-                <h5 class="card-title fw-bold mt-2">Continuation Online Course</h5>
-                <p class="card-text" style="line-height:1.6;">
-                  Continued Udemy course, watched multiple sections (5, 7, 8, 9, 10, 11), wrote notes, finished Bootstrap section, and started WordPress learning.
-                </p>
-                <a href="#" class="btn btn-warning rounded-pill">Read More</a>
               </div>
-            </div>
-          </div>
-        
-          <!-- 22 December Card -->
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body">
-                <div class="text-center mb-3">
-                  <i class="fa-solid fa-calendar-day fa-3x text-warning"></i>
+
+              <!-- Card: Mcdo Design (Front End) -->
+              <div class="col-md-6 col-lg-4 blog-card" data-category="front-end">
+                <div class="card h-100 shadow-sm border-0">
+                  <div class="card-body">
+                    <div class="text-center mb-3">
+                      <i class="fa-solid fa-hamburger fa-3x text-warning"></i>
+                    </div>
+                    <small class="text-muted">Dec 5, 2025 | Front End</small>
+                    <h5 class="card-title fw-bold mt-2">Mcdo Design (Front End)</h5>
+                    <p class="card-text" style="line-height:1.6;">Created the front-end layout for a Mcdo-themed website design project.</p>
+                    <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+                  </div>
                 </div>
-                <small class="text-muted">22 December 2025</small>
-                <h5 class="card-title fw-bold mt-2">WordPress & Ionic Angular</h5>
-                <p class="card-text" style="line-height:1.6;">
-                  Practiced WordPress, created portfolio, started new Udemy course on Ionic & Angular, experimented with Node and Angular setup, fixing issues, and experimenting with Ionic files.
-                </p>
-                <a href="#" class="btn btn-warning rounded-pill">Read More</a>
               </div>
+
+              <!-- Card: Continuation Portfolio Website -->
+              <div class="col-md-6 col-lg-4 blog-card" data-category="portfolio">
+                <div class="card h-100 shadow-sm border-0">
+                  <div class="card-body">
+                    <div class="text-center mb-3">
+                      <i class="fa-solid fa-code fa-3x text-warning"></i>
+                    </div>
+                    <small class="text-muted">Dec 12, 2025 | Portfolio</small>
+                    <h5 class="card-title fw-bold mt-2">Continuation Portfolio Website</h5>
+                    <p class="card-text" style="line-height:1.6;">Added more sections, improved layout, and polished the design for a better user experience.</p>
+                    <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card: Upgrading my Portfolio -->
+              <div class="col-md-6 col-lg-4 blog-card" data-category="portfolio">
+                <div class="card h-100 shadow-sm border-0">
+                  <div class="card-body">
+                    <div class="text-center mb-3">
+                      <i class="fa-solid fa-rocket fa-3x text-warning"></i>
+                    </div>
+                    <small class="text-muted">Dec 16, 2025 | Portfolio</small>
+                    <h5 class="card-title fw-bold mt-2">Upgrading my Portfolio</h5>
+                    <p class="card-text" style="line-height:1.6;">Enhanced portfolio content, layout, and responsiveness to fully reflect my skills and projects.</p>
+                    <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Add more cards for December here -->
+
             </div>
           </div>
-        
         </div>
+      </div>
+
+      <!-- November 2025 Accordion (example) -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNov2025">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nov2025">
+            November 2025
+          </button>
+        </h2>
+        <div id="nov2025" class="accordion-collapse collapse" data-bs-parent="#blogAccordion">
+          <div class="accordion-body">
+            <div class="row g-4 justify-content-center">
+              <!-- Blog Cards for November -->
+              <div class="col-md-6 col-lg-4 blog-card" data-category="fundamentals">
+                <div class="card h-100 shadow-sm border-0">
+                  <div class="card-body">
+                    <div class="text-center mb-3">
+                      <i class="fa-brands fa-html5 fa-3x text-warning"></i>
+                    </div>
+                    <small class="text-muted">Nov 27, 2025 | Fundamentals</small>
+                    <h5 class="card-title fw-bold mt-2">Reviewed HTML Fundamentals</h5>
+                    <p class="card-text" style="line-height:1.6;">Focused on understanding HTML structure, tags, and semantic elements for building web pages.</p>
+                    <a href="#" class="btn btn-warning rounded-pill">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Add more November cards here -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more months as needed -->
 
     </div>
   </div>
@@ -998,55 +901,55 @@
 
 
     <!-- Footer-->
-<footer class="py-5" style="background-color: #1c1c1c; color: #fff;">
-  <div class="container">
-    <div class="row align-items-start">
-
-      <!-- Column 1: About / Contact -->
-      <div class="col-md-4 mb-4 mb-md-0">
-        <h5 class="fw-bold">Hire Me for Your Next Big Project!</h5>
-        <p>Contact me in any convenient way. I am always open to learning opportunities and collaboration.</p>
-        <div class="d-flex gap-3">
-          <a href="https://www.instagram.com/wanayts/" target="_blank"><i class="fab fa-instagram text-white" style="font-size: 24px;"></i></a>
-          <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-f text-white" style="font-size: 24px;"></i></a>
-          <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-messenger text-white" style="font-size: 24px;"></i></a>
-          <a href="https://github.com/Wanayts" target="_blank"><i class="fab fa-github text-white" style="font-size: 24px;"></i></a>
+    <footer class="py-5" style="background-color: #1c1c1c; color: #fff;">
+      <div class="container">
+        <div class="row align-items-start">
+    
+          <!-- Column 1: About / Contact -->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="fw-bold">Hire Me for Your Next Big Project!</h5>
+            <p>Contact me in any convenient way. I am always open to learning opportunities and collaboration.</p>
+            <div class="d-flex gap-3">
+              <a href="https://www.instagram.com/wanayts/" target="_blank"><i class="fab fa-instagram text-white" style="font-size: 24px;"></i></a>
+              <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-f text-white" style="font-size: 24px;"></i></a>
+              <a href="https://www.facebook.com/Wanayts" target="_blank"><i class="fab fa-facebook-messenger text-white" style="font-size: 24px;"></i></a>
+              <a href="https://github.com/Wanayts" target="_blank"><i class="fab fa-github text-white" style="font-size: 24px;"></i></a>
+            </div>
+          </div>
+    
+          <!-- Column 2: Navigation -->
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5 class="fw-bold">Navigation</h5>
+            <ul class="list-unstyled">
+              <li><a href="#about" class="text-white text-decoration-none">About Me</a></li>
+              <li><a href="#achievement" class="text-white text-decoration-none">Achievement</a></li>
+              <li><a href="#portfolio" class="text-white text-decoration-none">Portfolio</a></li>
+              <li><a href="#education" class="text-white text-decoration-none">Education</a></li>
+              <li><a href="#contacts" class="text-white text-decoration-none">Contacts</a></li>
+            </ul>
+          </div>
+    
+          <!-- Column 3: Information -->
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5 class="fw-bold">Information</h5>
+            <p class="mb-1"><strong>Name:</strong> John Wanayts</p>
+            <p class="mb-1"><strong>Date of Birth:</strong> 09.30.2002</p>
+            <p class="mb-1"><strong>Email:</strong> johnwanayts@gmail.com</p>
+            <p class="mb-1"><strong>Phone:</strong> 09205153147</p>
+            <p class="mb-3"><strong>City:</strong> Pasig</p>
+            <button class="btn btn-warning btn-sm" onclick="window.open('assets/cv/ojt_cv.pdf', '_blank')">Download CV</button>
+          </div>
         </div>
-      </div>
-
-      <!-- Column 2: Navigation -->
-      <div class="col-md-3 mb-4 mb-md-0">
-        <h5 class="fw-bold">Navigation</h5>
-        <ul class="list-unstyled">
-          <li><a href="#about" class="text-white text-decoration-none">About Me</a></li>
-          <li><a href="#achievement" class="text-white text-decoration-none">Achievement</a></li>
-          <li><a href="#portfolio" class="text-white text-decoration-none">Portfolio</a></li>
-          <li><a href="#education" class="text-white text-decoration-none">Education</a></li>
-          <li><a href="#contacts" class="text-white text-decoration-none">Contacts</a></li>
-        </ul>
-      </div>
-
-      <!-- Column 3: Information -->
-      <div class="col-md-3 mb-4 mb-md-0">
-        <h5 class="fw-bold">Information</h5>
-        <p class="mb-1"><strong>Name:</strong> John Wanayts</p>
-        <p class="mb-1"><strong>Date of Birth:</strong> 09.30.2002</p>
-        <p class="mb-1"><strong>Email:</strong> johnwanayts@gmail.com</p>
-        <p class="mb-1"><strong>Phone:</strong> 09205153147</p>
-        <p class="mb-3"><strong>City:</strong> Pasig</p>
-        <button class="btn btn-warning btn-sm" onclick="window.open('assets/cv/ojt_cv.pdf', '_blank')">Download CV</button>
-      </div>
+        <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+    <div class="d-flex justify-content-between mt-4">
+      <p class="m-0">&copy; Created By John Wanayts</p>
+      <p class="m-0">All Right Reserved 2025</p>
     </div>
-    <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
-<div class="d-flex justify-content-between mt-4">
-  <p class="m-0">&copy; Created By John Wanayts</p>
-  <p class="m-0">All Right Reserved 2025</p>
-</div>
-  </div>
-</footer>
-<button id="scrollTopBtn" style="position: fixed; bottom: 30px; right: 30px; display: none; background: transparent; border: none; cursor: pointer; z-index: 999; font-size: 2.5rem; color: #F0D54A; transition: transform 0.3s;">
-  <i class="fa-solid fa-code"></i>
-</button>
+      </div>
+    </footer>
+    <button id="scrollTopBtn" style="position: fixed; bottom: 30px; right: 30px; display: none; background: transparent; border: none; cursor: pointer; z-index: 999; font-size: 2.5rem; color: #F0D54A; transition: transform 0.3s;">
+      <i class="fa-solid fa-code"></i>
+    </button>
 
 
 
