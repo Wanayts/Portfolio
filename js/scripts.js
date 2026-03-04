@@ -121,61 +121,6 @@ scrollTopBtn.addEventListener("click", () => {
   animateProgress();
   
 
-// ===== CONFIG =====
-  const startDate = new Date("2025-11-27"); // 🔴 change to your OJT start
-  const endDate = new Date(); // today
-
-  const holidays = [
-    "2025-11-30",
-    "2025-12-25",
-    "2026-01-01"
-  ];
-
-  // Count only Mon–Fri, excluding holidays
-  function countOJTDays(start, end) {
-    let count = 0;
-    let current = new Date(start);
-
-    while (current <= end) {
-      const day = current.getDay();
-      const dateStr = current.toISOString().split("T")[0];
-
-      if (day !== 0 && day !== 6 && !holidays.includes(dateStr)) {
-        count++;
-      }
-      current.setDate(current.getDate() + 1);
-    }
-    return count;
-  }
-
-  // Animate counter
-  function animateCounter(element, target) {
-    let current = 0;
-    const speed = 60; // lower = faster
-
-    const update = () => {
-      const increment = Math.ceil(target / speed);
-      current += increment;
-
-      if (current >= target) {
-        element.textContent = target;
-      } else {
-        element.textContent = current;
-        requestAnimationFrame(update);
-      }
-    };
-    update();
-  }
-
-  // Calculate + animate
-  const totalOJTDays = countOJTDays(startDate, endDate);
-  const ojtElement = document.getElementById("ojtDays");
-
-  ojtElement.dataset.target = totalOJTDays;
-  animateCounter(ojtElement, totalOJTDays);
-
-
-  
 const logo = document.getElementById('logo-hover');
 const music = document.getElementById('hover-music');
 let audioUnlocked = false;
