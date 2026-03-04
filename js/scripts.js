@@ -224,3 +224,20 @@ const form = document.getElementById('contactForm');
     // Here you can send formData to an API, email service, or server
     // Example: fetch('/submit', { method: 'POST', body: JSON.stringify(formData) })
   });
+
+
+const filterButtons = document.querySelectorAll('.filter-btn');
+  const blogCards = document.querySelectorAll('.blog-card');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const category = btn.getAttribute('data-filter');
+      blogCards.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
